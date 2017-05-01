@@ -1,0 +1,11 @@
+{
+  "name": "clapp",
+  "version": "1.0.0",
+  "description": "tic tac toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "Steven Reed",
+  "license": "ISC"
+}
