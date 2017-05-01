@@ -6,6 +6,9 @@
   "scripts": {
     "test": "run test"
   },
+   "bin": {
+    "go": "./index.js"
+  },
   "author": "Steven Reed",
   "license": "ISC"
 }
