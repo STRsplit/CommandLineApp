@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const game = require('commander');
-const userPrompt = require('./prompt.js');
+const userPrompt = require('prompt');
+console.log(userPrompt);
 var board =`
 ===============================
 |         |         |         |

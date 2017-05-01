@@ -1,6 +1,6 @@
 //prompting file
 var prompt = require('prompt');
-  
+module.exports = {
   prompt.start();
 
   prompt.get(['username', 'email'], function (err, result) {
@@ -14,3 +14,4 @@ var prompt = require('prompt');
     console.log(err);
     return 1;
   }
+}
