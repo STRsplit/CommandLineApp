@@ -2,13 +2,17 @@
   "name": "clapp",
   "version": "1.0.0",
   "description": "tic tac toe",
+  "repository": "https://github.com/Streed12/CommandLineApp",
   "main": "index.js",
   "scripts": {
     "test": "run test"
   },
-   "bin": {
+  "bin": {
     "goStart": "./index.js"
   },
   "author": "Steven Reed",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
