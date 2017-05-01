@@ -1,4 +1,2 @@
-
-module.exports = {
-  console.log('did this work');
-}
+#!/usr/bin/env node
+console.log('did this work');
