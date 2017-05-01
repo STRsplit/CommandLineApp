@@ -17,7 +17,7 @@ var board =`
 
 game
   .arguments('<file>')
-  .option('-s', userPrompt.prompt())
+  .option('-s', userPrompt())
   .action(function() {
     console.log(board);
   })
