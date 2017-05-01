@@ -13,6 +13,7 @@
   "author": "Steven Reed",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "prompt": "^1.0.0"
   }
 }
