@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const game = require('commander');
-
+const userPrompt = require('./prompt.js');
 var board =`
 ===============================
 |         |         |         |
@@ -16,8 +16,8 @@ var board =`
 
 game
   .arguments('<file>')
-  .option('-m, --move <move>', 'The location you\'d like to move') 
-  .start(function() {
+  .option('-s', userPrompt.start())
+  .action(function() {
     console.log(board);
-
+  })
 .parse(process.argv);
