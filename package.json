@@ -7,7 +7,7 @@
     "test": "run test"
   },
    "bin": {
-    "go": "./index.js"
+    "goStart": "./index.js"
   },
   "author": "Steven Reed",
   "license": "ISC"
