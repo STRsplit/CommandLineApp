@@ -75,7 +75,14 @@ let playerNames = [
       }
 ];
   const checkWinner = (cb) => {
-    cb(null, 'winner')
+    if(plays < 5){
+      cb(null, null)
+    } else if(checkRows() || checkColumns() || checkDiagonals()){
+      cb(null, 'winner')
+    }
+    else if(plays === 9){
+      cb('DRAW', null)
+    }
   }
   const checkMove = (move, cb) => {
     if(board[move[0] - 1][move[1] - 1] !== ' '){
