@@ -36,13 +36,13 @@ const createBoard = () => {
 let playerNames = {
     properties: {
       User1: {
+        description: 'Enter player 1 name',
         pattern: /^[a-zA-Z\s\-]+$/,
-        message: 'Enter player 1 name',
         required: true
       },
       User2: {
+        description: 'Enter player 2 name',
         pattern: /^[a-zA-Z\s\-]+$/,
-        message: 'Enter player 2 name',
         required: true
       }
     }
